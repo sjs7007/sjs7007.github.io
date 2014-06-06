@@ -45,3 +45,57 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.red {
+	background: rgba(250,103,45,0.5); 
+}
+
+/*
+
+   GRID Code
+
+ */
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box; /*chrome,safari*/
+	-moz-box-sizing: border-box; /*Mozilla*/
+	box-sizing: border-box; 
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960 px;
+}
+
+/*
+   	Typography
+*/
+
+h1,h3,h4,h5,p {
+	margin-bottom: 22px;
+}
+
+/*
+	Buttons
+*/
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px; /*10 pixelfs on top bottom, 30 on left right*/
+}
+
+/*
+   Home
+*/
+
+.hero {
+	padding: 22px 80px 66px 80px;
+}
