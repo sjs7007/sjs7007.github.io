@@ -7,8 +7,8 @@
 	</head>
 
 	<body>
-		<header class="container group ">
-		<h1>sjs7007's webpage<h1>
+		<header class="container">
+		<h1 class="logo">sjs7007's webpage<br>Line2<h1>
 		<h3>A really lame page for now.</h3>
 	
 		<nav>
@@ -25,31 +25,25 @@
 			<a class="btn btn-alt" href="about.html">About me</a>
 		</section>
 
-		<section class="grid">
-			<section class="col-1-3">
+		<section class="container">
+			<section>
 		
 				<a href="about.html">
 					<h5>About me</h5>
 				</a>
 				<p>I don't know what to write here</p>
-			</section><!--
-				for the </section><section> thingy
-			--><section class="col-1-3">
+			</section>
+
+			<section>
 				<a href="interests.html">
 					<h5>Interests</h5>
 				</a>
 				<p class="red"> derping </p>
-			</section><!--
-				for the </section><section> thingy
-			--><section class="col-1-3">
-				<a href="interests.html">
-					<h5>Interests</h5>
-				</a>
-				<p> some more derping </p>
 			</section>
+
 		</section>
 	
-		<footer class="primary-footer container group">
+		<footer class="container">
 			<small>&copy; SJ</small>
 
 			<nav>
